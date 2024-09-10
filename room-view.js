@@ -31,7 +31,7 @@ async function fetchRoomDetails(roomId) {
         document.getElementById('room-host').textContent = 'Hosted by ' + roomData.host;
         document.getElementById('room-description').textContent = roomData.description;
         document.getElementById('room-beds').textContent = 'Beds: ' + roomData.beds;
-        document.getElementById('room-price').textContent = 'Price: $' + roomData.price + ' / Night';
+        document.getElementById('room-price').textContent = 'Price: ₹' + roomData.price + ' / Night';
         document.getElementById('room-adults').textContent = 'Adults: ' + roomData.adults;
         document.getElementById('room-category').textContent = 'Category: ' + roomData.category;
 
