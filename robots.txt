@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 Allow: /
 
-Sitemap: https://vrindavanrooms/sitemap.xml
+Sitemap: https://vrindavanrooms.com//sitemap.xml
